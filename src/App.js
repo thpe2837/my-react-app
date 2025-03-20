@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
 	return (
 	  <div className="App">
-		<h1>Välkommen till min React-app!</h1>
-		{/* Lägg till din egen layout här */}
+		<Home />
 	  </div>
 	);
   }
