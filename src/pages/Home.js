@@ -30,7 +30,7 @@ class Home extends Component {
 				</div>
 			</div>
 			<div class="facebooklink">
-				<a href="https://www.facebook.com/groups/131148950364255" target="_blank">Vill du se mer av oss? Följ Bredviks Bygdegårdsförening på Facebook!</a>
+				<a href="https://www.facebook.com/groups/131148950364255" target="_blank" rel="noopener noreferrer">Vill du se mer av oss? Följ Bredviks Bygdegårdsförening på Facebook!</a>
 			</div>
 
 			<button id="showMessageButton">Visa meddelande</button>
