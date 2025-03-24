@@ -77,3 +77,4 @@ class Activities extends Component {
 	}
 }
 	
+export default Activities;
