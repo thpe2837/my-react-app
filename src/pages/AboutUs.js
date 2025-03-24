@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import ansvarigImg from "../img/Ansvarig.png";
+
 class AboutUs extends Component { 
 	render() {
 		return(
@@ -37,7 +39,7 @@ class AboutUs extends Component {
 						<p>Vi vill tacka alla som varit involverade för deras tid, engagemang och bidrag till att göra Bredviks historia tillgänglig för alla.</p>
 					</div>
 					<div class = "imagecontainer-about_us">
-						<img src = "../img/Ansvarig.png" alt = "Ansvarig person för hemsidan"/>
+						<img src = {ansvarigImg} alt = "Ansvarig person för hemsidan"/>
 					</div>
 				</div>
 
