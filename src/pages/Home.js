@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import koVideo from "../img/kor.mp4";
 import eventDateImg from "../img/event/date_index.png";
 import eventImg from "../img/event/knytkalas.png";
 
@@ -9,7 +10,7 @@ class Home extends Component {
 		<main>
 			<div class = "videocontainer">
 				<video class = "backgroundvideo" autoplay muted loop>
-					<source src = "../img/kor.mp4" type = "video/mp4"/>
+					<source src = {koVideo} type = "video/mp4"/>
 				</video>
 			</div>
 

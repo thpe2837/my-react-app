@@ -40,7 +40,6 @@ class Communities extends Component {
 					<button class="category-btn" data-target="it">IT</button>
 				</div>
 
-
 				<section id="viktiga-artal" class="timeline-section">
 					<h2>Viktiga årtal</h2>
 					<div class="timeline">

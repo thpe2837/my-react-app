@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+import bygdegardenImg from "../img/communities/bygdegården.png";
+import bysamfallighetenImg from "../img/communities/bysamfällighet.png";
+import jaktvardsklubbenImg from "../img/communities/jakt.png";
+
 class Communities extends Component {
 	render() {
 		return (
@@ -23,15 +27,15 @@ class Communities extends Component {
 
 				<div className="pictures-communities">
 					<div className="communitie" data-target="bydgegardsforeningen">
-						<img src="../img/communities/bygdegården.png" alt="Bygdegården i Bredvik" />
+						<img src={bygdegardenImg} alt="Bygdegården i Bredvik" />
 						<h3>Bygdegårdsföreningen</h3>
 					</div>
 					<div className="communitie" data-target="bysamfalligheten">
-						<img src="../img/communities/bysamfällighet.png" alt="Bredviks bysamfällighet" />
+						<img src={bysamfallighetenImg} alt="Bredviks bysamfällighet" />
 						<h3>Bysamfälligheten</h3>
 					</div>
 					<div className="communitie" data-target="jaktvardsklubben">
-						<img src="../img/communities/jakt.png" alt="Jaktvårdsklubben" />
+						<img src={jaktvardsklubbenImg} alt="Jaktvårdsklubben" />
 						<h3>Jaktvårdsklubben</h3>
 					</div>
 				</div>
