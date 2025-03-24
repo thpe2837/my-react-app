@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-
+import eventDateImg from "../img/event/date_index.png";
+import eventImg from "../img/event/knytkalas.png";
 
 class Home extends Component {
   render() {
@@ -17,10 +18,10 @@ class Home extends Component {
 			<div class = "infocontainer">
 				<div class = "imagecontainer-index">
 					<div class = "date-index">
-						<img src="../img/event/date_index.png" alt="Datum för eventet"/>
+						<img src={eventDateImg} alt="Datum för eventet"/>
 					</div>
 					<div class = "image-index">
-						<img src = "../img/event/knytkalas.png" alt = "Knytkalas på Bäcknäset"/>
+						<img src = {eventImg} alt = "Knytkalas på Bäcknäset"/>
 					</div>
 				</div>
 				<div class = "textcontainer-index">

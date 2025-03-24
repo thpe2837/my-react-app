@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 
+import rosbergetImg from "../img/destinations/rösberget.png";
+import fickfjardenImg from "../img/destinations/fickfjärden.png";
+import batlaggningImg from "../img/destinations/båtläggning.png";
+import spanhyvelImg from "../img/destinations/spånhyvel.png";
+
 class Activities extends Component {
 	render() {
 		return (
@@ -54,19 +59,19 @@ class Activities extends Component {
 					<h2>Utflyktsmål</h2>
 					<div class = "pictures-activities">
 						<div class="destination">
-							<img src="../img/destinations/rösberget.png" alt="Rösberget"/>
+							<img src={rosbergetImg} alt="Rösberget"/>
 							<h3>Rösberget</h3>
 						</div>
 						<div class="destination">
-							<img src="../img/destinations/fickfjärden.png" alt="Fickfjärden"/>
+							<img src={fickfjardenImg} alt="Fickfjärden"/>
 							<h3>Fickfjärden</h3>
 						</div>
 						<div class="destination">
-							<img src="../img/destinations/båtläggning.png" alt="Hammaren båtläggning"/>
+							<img src={batlaggningImg} alt="Hammaren båtläggning"/>
 							<h3>Hammaren båtläggning</h3>
 						</div>
 						<div class="destination">
-							<img src="../img/destinations/spånhyvel.png" alt="Spånhyvel i spånbäcken"/>
+							<img src={spanhyvelImg} alt="Spånhyvel i spånbäcken"/>
 							<h3>Spånhyvel i spånbäcken</h3>
 						</div>	
 					</div>
