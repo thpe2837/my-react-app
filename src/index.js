@@ -16,14 +16,5 @@ root.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
-const menu = document.getElementById("menu-btn");
-const nav = document.getElementById("nav");
 
-menu.addEventListener("click", (e) => {
-	if (menu.innerHTML === "Menu") {
-		menu.innerHTML = "Close";
-	} else {
-		menu.innerHTML = "Menu";
-	}
-	nav.classList.toggle("visible");
-});
+
