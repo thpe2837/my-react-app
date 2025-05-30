@@ -4,6 +4,7 @@ import bygdegardenImg from "../img/communities/bygdegården.png";
 import bysamfallighetenImg from "../img/communities/bysamfällighet.png";
 import jaktvardsklubbenImg from "../img/communities/jakt.png";
 
+import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
 const TITLE = "Home | " + Config.SITE_TITLE;

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Helmet } from "react-helmet";
 
 import koVideo from "../img/kor.mp4";
 import eventDateImg from "../img/event/date_index.png";
 import eventImg from "../img/event/knytkalas.png";
 
+import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
 const TITLE = "Home | " + Config.SITE_TITLE;

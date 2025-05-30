@@ -5,6 +5,7 @@ import fickfjardenImg from "../img/destinations/fickfjärden.png";
 import batlaggningImg from "../img/destinations/båtläggning.png";
 import spanhyvelImg from "../img/destinations/spånhyvel.png";
 
+import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
 const TITLE = "Home | " + Config.SITE_TITLE;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
 const TITLE = "Home | " + Config.SITE_TITLE;
