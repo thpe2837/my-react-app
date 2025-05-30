@@ -5,8 +5,8 @@ import ansvarigImg from "../img/Ansvarig.png";
 import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
-const TITLE = "About | " + Config.SITE_TITLE;
-const DESC = "React App for the village Bredvik, made as an assignment in the course Webbteknik för ingenjörer at UMU";
+const TITLE = "Om oss | " + Config.SITE_TITLE;
+const DESC = "Om oss sida för byn Bredvik";
 const CANONICAL = Config.SITE_DOMAIN + "/";
 
 class AboutUs extends Component { 
@@ -16,7 +16,7 @@ class AboutUs extends Component {
 
 				<Helmet>
 					<title>{TITLE}</title>
-					<link rel = "canonical" href="{CANONICAL}"/>
+					<link rel = "canonical" href={CANONICAL}/>
 					<meta name="description" content=
 					{DESC}/>
 					<meta name="theme-color" content=

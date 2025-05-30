@@ -7,8 +7,8 @@ import eventImg from "../img/event/knytkalas.png";
 import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
-const TITLE = "Home | " + Config.SITE_TITLE;
-const DESC = "React App for the village Bredvik, made as an assignment in the course Webbteknik för ingenjörer at UMU";
+const TITLE = "Hem | " + Config.SITE_TITLE;
+const DESC = "Hem sida för byn Bredvik med information om nästkommande aktivitet";
 const CANONICAL = Config.SITE_DOMAIN + "/";
 
 class Home extends Component {
@@ -18,7 +18,7 @@ class Home extends Component {
 
 			<Helmet>
 				<title>{TITLE}</title>
-				<link rel = "canonical" href="{CANONICAL}"/>
+				<link rel = "canonical" href={CANONICAL}/>
 				<meta name="description" content=
 				{DESC}/>
 				<meta name="theme-color" content=

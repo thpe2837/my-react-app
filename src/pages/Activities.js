@@ -8,8 +8,8 @@ import spanhyvelImg from "../img/destinations/spånhyvel.png";
 import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
-const TITLE = "Activities | " + Config.SITE_TITLE;
-const DESC = "React App for the village Bredvik, made as an assignment in the course Webbteknik för ingenjörer at UMU";
+const TITLE = "Aktiviteter | " + Config.SITE_TITLE;
+const DESC = "Sida om de aktiviteter som sker i byn Bredvik";
 const CANONICAL = Config.SITE_DOMAIN + "/";
 
 class Activities extends Component {
@@ -19,7 +19,7 @@ class Activities extends Component {
 
 				<Helmet>
 					<title>{TITLE}</title>
-					<link rel = "canonical" href="{CANONICAL}"/>
+					<link rel = "canonical" href={CANONICAL}/>
 					<meta name="description" content=
 					{DESC}/>
 					<meta name="theme-color" content=

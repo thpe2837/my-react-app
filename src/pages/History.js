@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
-const TITLE = "History | " + Config.SITE_TITLE;
-const DESC = "React App for the village Bredvik, made as an assignment in the course Webbteknik för ingenjörer at UMU";
+const TITLE = "Historia | " + Config.SITE_TITLE;
+const DESC = "Historia om Bredvik samt berättelser från bybor";
 const CANONICAL = Config.SITE_DOMAIN + "/";
 
 class Communities extends Component {
@@ -14,7 +14,7 @@ class Communities extends Component {
 
 			<Helmet>
 				<title>{TITLE}</title>
-				<link rel = "canonical" href="{CANONICAL}"/>
+				<link rel = "canonical" href={CANONICAL}/>
 				<meta name="description" content=
 				{DESC}/>
 				<meta name="theme-color" content=

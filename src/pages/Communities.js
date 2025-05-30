@@ -7,8 +7,8 @@ import jaktvardsklubbenImg from "../img/communities/jakt.png";
 import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
-const TITLE = "Communities | " + Config.SITE_TITLE;
-const DESC = "React App for the village Bredvik, made as an assignment in the course Webbteknik för ingenjörer at UMU";
+const TITLE = "Föreningar | " + Config.SITE_TITLE;
+const DESC = "Sida om de föreningar som finns i byn Bredvik, samt deras historia";
 const CANONICAL = Config.SITE_DOMAIN + "/";
 
 class Communities extends Component {
@@ -18,7 +18,7 @@ class Communities extends Component {
 
 				<Helmet>
 					<title>{TITLE}</title>
-					<link rel = "canonical" href="{CANONICAL}"/>
+					<link rel = "canonical" href={CANONICAL}/>
 					<meta name="description" content=
 					{DESC}/>
 					<meta name="theme-color" content=
