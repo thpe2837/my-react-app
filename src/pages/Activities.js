@@ -5,10 +5,25 @@ import fickfjardenImg from "../img/destinations/fickfjärden.png";
 import batlaggningImg from "../img/destinations/båtläggning.png";
 import spanhyvelImg from "../img/destinations/spånhyvel.png";
 
+import Config from "../Config.json";
+
+const TITLE = "Home | " + Config.SITE_TITLE;
+const DESC = "React App for the village Bredvik, made as an assignment in the course Webbteknik för ingenjörer at UMU";
+const CANONICAL = Config.SITE_DOMAIN + "/";
+
 class Activities extends Component {
 	render() {
 		return (
 			<main>
+
+				<Helmet>
+					<title>{TITLE}</title>
+					<link rel = "canonical" href="{CANONICAL}"/>
+					<meta name="description" content=
+					{DESC}/>
+					<meta name="theme-color" content=
+					{Config.THEME_COLOR}/>
+				</Helmet>
 
 				<button id="back-to-top">Till toppen</button>
 

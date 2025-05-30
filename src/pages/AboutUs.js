@@ -2,10 +2,26 @@ import React, { Component } from 'react';
 
 import ansvarigImg from "../img/Ansvarig.png";
 
+import Config from "../Config.json";
+
+const TITLE = "Home | " + Config.SITE_TITLE;
+const DESC = "React App for the village Bredvik, made as an assignment in the course Webbteknik för ingenjörer at UMU";
+const CANONICAL = Config.SITE_DOMAIN + "/";
+
 class AboutUs extends Component { 
 	render() {
 		return(
 			<main>
+
+				<Helmet>
+					<title>{TITLE}</title>
+					<link rel = "canonical" href="{CANONICAL}"/>
+					<meta name="description" content=
+					{DESC}/>
+					<meta name="theme-color" content=
+					{Config.THEME_COLOR}/>
+				</Helmet>
+
 				<div class = "introcontainer">
 					<div class = "textcontainer-about_us">
 						<h1>Om oss</h1>
