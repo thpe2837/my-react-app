@@ -5,7 +5,7 @@ import ansvarigImg from "../img/Ansvarig.png";
 import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
-const TITLE = "Home | " + Config.SITE_TITLE;
+const TITLE = "About | " + Config.SITE_TITLE;
 const DESC = "React App for the village Bredvik, made as an assignment in the course Webbteknik för ingenjörer at UMU";
 const CANONICAL = Config.SITE_DOMAIN + "/";
 
