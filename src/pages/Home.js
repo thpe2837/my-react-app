@@ -54,8 +54,6 @@ class Home extends Component {
 				<a href="https://www.facebook.com/groups/131148950364255" target="_blank" rel="noopener noreferrer">Vill du se mer av oss? Följ Bredviks Bygdegårdsförening på Facebook!</a>
 			</div>
 
-			<button id="showMessageButton">Visa meddelande</button>
-
 		</main>
     );
   }
