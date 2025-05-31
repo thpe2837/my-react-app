@@ -117,6 +117,7 @@ header h1 {
 /*MAIN*/
 main {
 	background-color: #F2E3BC;
+	padding-top: 40px;
 }
 .spacer{
 	height: 55vh;
@@ -125,7 +126,6 @@ main {
 .introcontainer {
 	width: 90%;
 	display: flex;
-	margin-top: 40px;
 	padding: 50px;
 }
 .infocontainer {

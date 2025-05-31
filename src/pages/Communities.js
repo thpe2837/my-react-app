@@ -30,11 +30,13 @@ class Communities extends Component {
 				<div className="introcontainer">
 					<div className="textcontainer">
 						<h1>Föreningar</h1>
+						<br />
 						<p>Bredvik är en plats där historia, tradition och framtid möts. Genom våra lokala 
 							föreningar skapar vi en samlingspunkt för alla som bor här och besöker oss. 
 							Här hittar du allt från bysamfälligheten som ansvarar för gemensamma frågor, 
 							till jaktvårdsklubben som bevarar våra jakttraditioner, och bygdegården som 
 							är en central mötesplats för fest och aktiviteter.</p>
+						<br />
 						<p>Tillsammans håller vi våra traditioner levande och skapar nya minnen. Oavsett 
 							om du är intresserad av att engagera dig i föreningarna, hyra bygdegården 
 							för ett evenemang eller delta i en jaktaktivitet, är du alltid välkommen 
