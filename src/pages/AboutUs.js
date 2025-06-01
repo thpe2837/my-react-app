@@ -23,8 +23,8 @@ class AboutUs extends Component {
 					{Config.THEME_COLOR}/>
 				</Helmet>
 
-				<div class = "introcontainer">
-					<div class = "textcontainer-about_us">
+				<div className = "introcontainer">
+					<div className = "textcontainer-about_us">
 						<h1>Om oss</h1>
 						<br />
 						<p>Bredviks historia är ett resultat av ett EU-finansierat projekt, LEADER II, som syftar till att stödja utvecklingsinitiativ på landsbygden. Projektet leddes av föreningen Stad och Land – Hand i hand i Västerbotten.</p>
@@ -41,8 +41,8 @@ class AboutUs extends Component {
 					</div>
 				</div>
 
-				<div class = "infocontainer">
-					<div class = "textcontainer">
+				<div className = "infocontainer">
+					<div className = "textcontainer">
 						<h2>Ansvariga</h2>
 						<br />
 						<p>Projektet "Bredviks Historia på Data" har drivits av en grupp engagerade bybor, med Rolf Holmgren som projektledare. Tillsammans med andra bybor har de arbetat för att samla in och dokumentera byns historia.</p>
@@ -55,13 +55,13 @@ class AboutUs extends Component {
 						<br />
 						<p>Vi vill tacka alla som varit involverade för deras tid, engagemang och bidrag till att göra Bredviks historia tillgänglig för alla.</p>
 					</div>
-					<div class = "imagecontainer-about_us">
+					<div className = "imagecontainer-about_us">
 						<img src = {ansvarigImg} alt = "Ansvarig person för hemsidan"/>
 					</div>
 				</div>
 
-				<div class = "formcontainer">
-					<div class = "textcontainer-about_us">
+				<div className = "formcontainer">
+					<div className = "textcontainer-about_us">
 						<h2>Kontakta oss</h2>
 						<br />
 						<p>Har du en fråga, vill dela med dig av information eller bara komma 
@@ -69,7 +69,7 @@ class AboutUs extends Component {
 						<p>Fyll i formuläret nedan, så återkommer vi så snart som möjligt!</p>
 					</div>
 
-					<div class = "contactform">
+					<div className = "contactform">
 						<form>
 							<label for="name">För- och efternamn</label>
 							<input type="text" name="name" id="name"/>

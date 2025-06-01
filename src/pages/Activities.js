@@ -28,8 +28,8 @@ class Activities extends Component {
 
 				<button id="back-to-top">Till toppen</button>
 
-				<div class = "introcontainer">
-					<div class = "textcontainer">
+				<div className = "introcontainer">
+					<div className = "textcontainer">
 						<h1>Aktiviteter</h1>
 						<br />
 						<p>Välkommen till Bredviks aktiviteter! Här kan du läsa om årets planerade 
@@ -45,48 +45,48 @@ class Activities extends Component {
 					</div>
 				</div>
 
-				<div class = "calender">
+				<div className = "calender">
 					<h1>2025</h1>
-					<div class="circle-container">
-						<div class="event">
-							<span class="label-event">Bredviksvasan<br />8 mars</span>
-							<p class="event-description">En årlig skidtävling för hela familjen!</p>
+					<div className="circle-container">
+						<div className="event">
+							<span className="label-event">Bredviksvasan<br />8 mars</span>
+							<p className="event-description">En årlig skidtävling för hela familjen!</p>
 						</div>
-						<div class="event"> 
-							<span class="label-event">Våffeldagen<br />25 mars</span>
-							<p class="event-description">Kom och fira våffeldagen med oss!</p>
+						<div className="event"> 
+							<span className="label-event">Våffeldagen<br />25 mars</span>
+							<p className="event-description">Kom och fira våffeldagen med oss!</p>
 						</div>
-						<div class="event">
-							<span class="label-event">Majbrasa<br />30 april</span>
-							<p class="event-description">Fira in våren med oss mitt i byn!</p>
+						<div className="event">
+							<span className="label-event">Majbrasa<br />30 april</span>
+							<p className="event-description">Fira in våren med oss mitt i byn!</p>
 						</div>
-						<div class="event">
-							<span class="label-event">Knytkalas<br />24 augusti</span>
-							<p class="event-description">Vi njuter av sensommarkvällen tillsammans nere på Bäcknäset!</p>
+						<div className="event">
+							<span className="label-event">Knytkalas<br />24 augusti</span>
+							<p className="event-description">Vi njuter av sensommarkvällen tillsammans nere på Bäcknäset!</p>
 						</div>
-						<div class="event">
-							<span class="label-event">Glöggmys<br />7 december</span>
-							<p class="event-description">Vänta in tomten med oss den första advent!</p>
+						<div className="event">
+							<span className="label-event">Glöggmys<br />7 december</span>
+							<p className="event-description">Vänta in tomten med oss den första advent!</p>
 						</div>
 					</div>
 				</div>
 		
-				<div class="destinationcontainer">
+				<div className="destinationcontainer">
 					<h2>Utflyktsmål</h2>
-					<div class = "pictures-activities">
-						<div class="destination">
+					<div className = "pictures-activities">
+						<div className="destination">
 							<img src={rosbergetImg} alt="Rösberget"/>
 							<h3>Rösberget</h3>
 						</div>
-						<div class="destination">
+						<div className="destination">
 							<img src={fickfjardenImg} alt="Fickfjärden"/>
 							<h3>Fickfjärden</h3>
 						</div>
-						<div class="destination">
+						<div className="destination">
 							<img src={batlaggningImg} alt="Hammaren båtläggning"/>
 							<h3>Hammaren båtläggning</h3>
 						</div>
-						<div class="destination">
+						<div className="destination">
 							<img src={spanhyvelImg} alt="Spånhyvel i spånbäcken"/>
 							<h3>Spånhyvel i spånbäcken</h3>
 						</div>	
