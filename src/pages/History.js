@@ -23,8 +23,8 @@ class Communities extends Component {
 
 				<button id="back-to-top">Till toppen</button>
 
-				<div class = "introcontainer">
-					<div class="textcontainer">
+				<div className = "introcontainer">
+					<div className="textcontainer">
 						<h1>Historia</h1>
 						<br />
 						<p>Välkommen till Bredviks historia! Här kan du utforska viktiga händelser, 
@@ -41,216 +41,216 @@ class Communities extends Component {
 					</div>
 				</div>
 
-				<div class="category-grid">
-					<button class="category-btn" data-target="viktiga-artal">Viktiga årtal</button>
-					<button class="category-btn" data-target="fastigheter">Fastigheter</button>
-					<button class="category-btn" data-target="berattelser">Berättelser</button>
-					<button class="category-btn" data-target="befolkning">Befolkning</button>
-					<button class="category-btn" data-target="natur">Natur</button>
-					<button class="category-btn" data-target="jakt">Jakt</button>
-					<button class="category-btn" data-target="fiske">Fiske</button>
-					<button class="category-btn" data-target="fritid">Fritid</button>
-					<button class="category-btn" data-target="jordbruk">Jordbruk</button>
-					<button class="category-btn" data-target="skogsbruk">Skogsbruk</button>
-					<button class="category-btn" data-target="hantverk">Hantverk</button>
-					<button class="category-btn" data-target="it">IT</button>
+				<div className="category-grid">
+					<button className="category-btn" data-target="viktiga-artal">Viktiga årtal</button>
+					<button className="category-btn" data-target="fastigheter">Fastigheter</button>
+					<button className="category-btn" data-target="berattelser">Berättelser</button>
+					<button className="category-btn" data-target="befolkning">Befolkning</button>
+					<button className="category-btn" data-target="natur">Natur</button>
+					<button className="category-btn" data-target="jakt">Jakt</button>
+					<button className="category-btn" data-target="fiske">Fiske</button>
+					<button className="category-btn" data-target="fritid">Fritid</button>
+					<button className="category-btn" data-target="jordbruk">Jordbruk</button>
+					<button className="category-btn" data-target="skogsbruk">Skogsbruk</button>
+					<button className="category-btn" data-target="hantverk">Hantverk</button>
+					<button className="category-btn" data-target="it">IT</button>
 				</div>
 
-				<section id="viktiga-artal" class="timeline-section">
+				<section id="viktiga-artal" className="timeline-section">
 					<h2>Viktiga årtal</h2>
-					<div class="timeline">
+					<div className="timeline">
 						
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1500 - 500 f.Kr</h3>
 							<p>Rösgravar på rösberget.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1000 e.Kr</h3>
 							<p>Bebyggelse rester på Hammaren: båtlänningar, tomtstenar, hörnstenar.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1413</h3>
 							<p>"Järnäsbrevet" lagmansdom om rågång från Korsmyrholmen - Gårdstjärnshögen - Krike.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1494</h3>
 							<p>Håknäsbrevet undertecknat i Bredvik.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1500</h3>
 							<p>Lögdebrevet undertecknat av bland annat Olof Jonson, nämndeman från Bredvik.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1535</h3>
 							<p>Fem hemman.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1642</h3>
 							<p>Kyrkoherden Forselius köpte 20 markland.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1646</h3>
 							<p>Jacob Stenklyfts karta ritades.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1682</h3>
 							<p>Komminister Jonas Atmarius bodde i byn.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1705</h3>
 							<p>Första officiella kartan uppfördes över byn.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1730 - 1750</h3>
 							<p>Det föddes 31 barn i byn, varav 13 barn (42%) omkom före 2 års ålder.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1765</h3>
 							<p>Storskifte av inägorna, innefattade åtta gårdar.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1802</h3>
 							<p>Storskifte utmarken.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1817 - 1818 samt 1834</h3>
 							<p>Johan Larsson Wilkund från Bredvik satt som riksdagsman.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1843</h3>
 							<p>13 hemman, 9 torp.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1850</h3>
 							<p>Johan Ersson utsågs till nämndeman.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1856 - 1863</h3>
 							<p>Laga skifte 15 hemman.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1859</h3>
 							<p>Bredvik ingick i skolrote nr.5.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1895</h3>
 							<p>Bredviks skola byggdes.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1934</h3>
 							<p>Den första sommarstugan byggdes av G.A. Näslund.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1938</h3>
 							<p>Sista termninen i Bredviks skola, som nu är nedlagd.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1967</h3>
 							<p>Taro och Inga-Bodil Gadelius köpte hus i byn.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>1997</h3>
 							<p>Projektet "Bredviks Historia på Data" startade med ett möte mellan bybor.</p>
 							</div>
 						</div>
 		
-						<div class="timeline-item">
-							<div class="timeline-content">
+						<div className="timeline-item">
+							<div className="timeline-content">
 							<h3>2000</h3>
 							<p>Hemsidan för Bredviks historia lanserades under byastämman.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>2002</h3>
 							<p>Bredvik är nu uppkopplad mot omvärlden via fiberanslutet internet.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>2006 - 2008</h3>
 							<p>Telia 3G-mast kom till byn.</p>
 							</div>
 						</div>
 
-						<div class="timeline-item">	
-							<div class="timeline-content">
+						<div className="timeline-item">	
+							<div className="timeline-content">
 							<h3>2015 - 2016</h3>
 							<p>Bygge av nytt pumphus, omkoppling i ledningsnät samt inkoppling.</p>
 							</div>
 						</div>
 		
-						<div class="timeline-item">
-							<div class="timeline-content">
+						<div className="timeline-item">
+							<div className="timeline-content">
 							<h3>2025</h3>
 							<p>Hemsidan uppdaterades och fick ett nytt utseende av Thilde Persson.</p>
 							</div>
@@ -259,7 +259,7 @@ class Communities extends Component {
 					</div>
 				</section>	
 
-				<section id="fastigheter" class="property-history">
+				<section id="fastigheter" className="property-history">
 					<h2>Fastigheternas historia</h2>
 					<details>
 						<summary>Bredvik 1:3</summary>
@@ -464,11 +464,11 @@ class Communities extends Component {
 					</details>
 				</section>
 
-				<section id="berattelser" class="story-section">
+				<section id="berattelser" className="story-section">
 					<h2>Berättelser och kuriosa från bybor</h2>
-					<div class="stories">
+					<div className="stories">
 						
-						<div class="story-item">
+						<div className="story-item">
 							<h3>Dialektala uttryck</h3>
 							<table>
 								<tr>
@@ -502,8 +502,8 @@ class Communities extends Component {
 							</table>
 						</div>
 
-						<div class="story-item">
-							<div class="story-content">
+						<div className="story-item">
+							<div className="story-content">
 								<h3>Asta Boströms minnen om mat</h3>
 								<br />
 								<p><strong>Vardagsmat</strong></p>
@@ -616,8 +616,8 @@ class Communities extends Component {
 							</div>
 						</div>
 
-						<div class="story-item">
-							<div class="story-content">
+						<div className="story-item">
+							<div className="story-content">
 								<h3>Berättelsen om Inga-Bodil Vetterlund-Gadelius</h3>
 								<br />
 								<p><strong>Världen är så stor</strong></p>
@@ -653,39 +653,39 @@ class Communities extends Component {
 
 				</section>
 
-				<section id="befolkning" class="story-section">
+				<section id="befolkning" className="story-section">
 					<h2>Befolkning</h2>
 				</section>
 
-				<section id="natur" class="story-section">
+				<section id="natur" className="story-section">
 					<h2>Natur</h2>
 				</section>
 
-				<section id="jakt" class="story-section">
+				<section id="jakt" className="story-section">
 					<h2>Jakt</h2>
 				</section>
 
-				<section id="fiske" class="story-section">
+				<section id="fiske" className="story-section">
 					<h2>Fiske</h2>
 				</section>
 
-				<section id="fritid" class="story-section">
+				<section id="fritid" className="story-section">
 					<h2>Fritid</h2>
 				</section>
 
-				<section id="jordbruk" class="story-section">
+				<section id="jordbruk" className="story-section">
 					<h2>Jordbruk</h2>
 				</section>
 
-				<section id="skogsbruk" class="story-section">
+				<section id="skogsbruk" className="story-section">
 					<h2>Skogsbruk</h2>
 				</section>
 
-				<section id="hantverk" class="story-section">
+				<section id="hantverk" className="story-section">
 					<h2>Hantverk</h2>
 				</section>
 
-				<section id="it" class="story-section">
+				<section id="it" className="story-section">
 					<h2>IT</h2>
 				</section>
 			</main>

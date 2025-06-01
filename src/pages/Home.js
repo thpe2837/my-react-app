@@ -25,24 +25,24 @@ class Home extends Component {
 				{Config.THEME_COLOR}/>
 			</Helmet>
 
-			<div class = "videocontainer">
-				<video class = "backgroundvideo" autoplay muted loop>
+			<div className = "videocontainer">
+				<video className = "backgroundvideo" autoplay muted loop>
 					<source src = {koVideo} type = "video/mp4"/>
 				</video>
 			</div>
 
-			<div class="spacer"></div>
+			<div className="spacer"></div>
 
-			<div class = "infocontainer">
-				<div class = "imagecontainer-index">
-					<div class = "date-index">
+			<div className = "infocontainer">
+				<div className = "imagecontainer-index">
+					<div className = "date-index">
 						<img src={eventDateImg} alt="Datum för eventet"/>
 					</div>
-					<div class = "image-index">
+					<div className = "image-index">
 						<img src = {eventImg} alt = "Knytkalas på Bäcknäset"/>
 					</div>
 				</div>
-				<div class = "textcontainer-index">
+				<div className = "textcontainer-index">
 					<h2>Knytkalas på Bäcknäset</h2>
 					<br />
 					<p>Välkommen på knytkalas den 24 augusti nere vid hamnen i Bäcknäset! 
@@ -50,7 +50,7 @@ class Home extends Component {
 						tillsammans med god mat, trevligt sällskap och fin utsikt över vattnet. </p>
 				</div>
 			</div>
-			<div class="facebooklink">
+			<div className="facebooklink">
 				<a href="https://www.facebook.com/groups/131148950364255" target="_blank" rel="noopener noreferrer">Vill du se mer av oss? Följ Bredviks Bygdegårdsförening på Facebook!</a>
 			</div>
 
