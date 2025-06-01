@@ -26,8 +26,12 @@ function EventInterest() {
 	return (
 		<div style={{ marginTop: "30px", textAlign: "center"}}>
 			<h3>Kommer du på knytkalaset?</h3>
-			<button onClick={handleInterested}> Inresserad ({interested})</button>
-			<button onClick={handleGoing}> Jag kommer ({going})</button> 
+			<button className="event-button" onClick={handleInterested}>
+				 Inresserad ({interested})
+			</button>
+			<button className="event-button" onClick={handleGoing}>
+				 Jag kommer ({going})
+			</button> 
 		</div>
 	);
 }
