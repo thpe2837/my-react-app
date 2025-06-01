@@ -4,6 +4,8 @@ import koVideo from "../img/kor.mp4";
 import eventDateImg from "../img/event/date_index.png";
 import eventImg from "../img/event/knytkalas.png";
 
+import EventInterest from '../components/EventInterest';
+
 import { Helmet } from "react-helmet";
 import Config from "../Config.json";
 
@@ -48,6 +50,8 @@ class Home extends Component {
 					<p>Välkommen på knytkalas den 24 augusti nere vid hamnen i Bäcknäset! 
 						Ta med något gott att äta och dela med andra. Vi njuter av sensommarkvällen 
 						tillsammans med god mat, trevligt sällskap och fin utsikt över vattnet. </p>
+
+					<EventInterest />
 				</div>
 			</div>
 			<div className="facebooklink">
