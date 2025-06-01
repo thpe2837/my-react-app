@@ -222,6 +222,20 @@ footer hr {
 	width: 500px;
 	text-align: left;
 }
+.event-button {
+	background-color: #F8F1DD;
+	color: #0D3B66;
+	padding: 10px 16px;
+	border: none;
+	border-radius: 8px;
+	margin: 8px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: font-weight 0.3s ease;
+}
+.event-button:hover {
+	font-weight: bold;
+}
 .facebooklink {
 	width: 90%;
 	display: block;
